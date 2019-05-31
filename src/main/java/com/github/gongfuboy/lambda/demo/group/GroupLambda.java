@@ -23,7 +23,7 @@ public class GroupLambda {
 
         List<Person> personList = Arrays.asList(new Person(18, "Jack"), new Person(19, "Tom"),
                 new Person(18, "Jack"));
-        System.out.println(personList.stream().collect(Collectors.toList()));
+        System.out.println(personList);
         Map<Pair, List<Person>> groupedMap =
                 personList.stream().collect(Collectors.groupingBy(person -> Pair.of(person.getAge(), person.getName())));
         System.out.println(groupedMap);
