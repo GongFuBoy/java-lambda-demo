@@ -1,4 +1,4 @@
-package com.github.gongfuboy.lambda.demo.group;
+package com.github.gongfuboy.lambda.demo;
 
 import com.github.gongfuboy.lambda.demo.pojo.Person;
 import org.apache.commons.lang3.tuple.Pair;
